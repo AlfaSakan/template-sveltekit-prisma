@@ -1,0 +1,10 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.organizeImports": true
+	},
+	"editor.formatOnSave": true,
+	"vitest.commandLine": "pnpm run test:unit --watch",
+	"vitest.enable": true,
+	"typescript.tsdk": "node_modules/typescript/lib"
+}
