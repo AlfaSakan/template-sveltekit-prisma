@@ -20,7 +20,7 @@ export default defineConfig({
 				'src/**/index.ts',
 				'src/**/types.util.ts'
 			],
-			reporter: ['text', 'json', 'html'],
+			reporter: ['json'],
 			all: true,
 			lines: 60,
 			functions: 60,
