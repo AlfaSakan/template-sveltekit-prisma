@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Hamburger from '../../Icons/Hamburger.svelte';
 
-	let className: string = '';
+	let className = '';
 	export { className as class };
 </script>
 

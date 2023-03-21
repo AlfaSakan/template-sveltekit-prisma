@@ -15,7 +15,8 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test:unit": "vitest --coverage",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"check:code": "pnpm check && pnpm format && pnpm lint"
 	},
 	"devDependencies": {
 		"@paralleldrive/cuid2": "^2.2.0",

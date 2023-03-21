@@ -4,7 +4,7 @@
 
 	export let title: string;
 	export let price: number;
-	export let href: string = '';
+	export let href = '';
 </script>
 
 <a {href} class="card card-compact w-full lg:h-96 bg-white shadow-xl rounded-lg">

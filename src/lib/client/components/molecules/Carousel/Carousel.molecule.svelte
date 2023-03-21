@@ -3,7 +3,7 @@
 
 	export let carousel: HTMLDivElement;
 	export let carouselItems: CarouselItem[];
-	export let withPagination: boolean = true;
+	export let withPagination = true;
 </script>
 
 <div>
